@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="style.CSS">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="header-nav">
+    <nav>
+      <img src="./assets/images/logo.svg" alt="Logo" class="logo">
+
+    
+      <i class="hamburger-icon"><svg width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g  fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg></i>
+    
+
+      <ul class="nav-links">
+        
+
+      
+      <i class="menu-close-icon"><svg width="32" height="31" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg></i>
+        <div class="nav-box">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </div>
+      </ul>
+    </nav>
+  </div>
+  <main>
+
+    <div class="flex-box">
+      <div class="grid-container">
+        <div id="grid-item1" data-aos="fade-up"
+          data-aos-duration="3000">
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="" id="mobile-img">
+
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="" id="desktop-img">
+        </div>
+    
+        <div class="flex-box2">
+          <div id="grid-item2" data-aos="fade-right">
+            <h1 data-aos="fade-up"
+            data-aos-duration="3000">The Bright <br> Future of Web 3.0?</h1>
+          </div>
+        
+          <div id="grid-item3" data-aos="fade-up"
+            data-aos-duration="3000">
+           <p>We dive into the next evolution of the web that claims to put the power of the platforms  back    into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            
+            <button>Read more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="new" data-aos="fade-up"
+        data-aos-duration="3000">
+        <h3>New</h3>
+        <div class="news1" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+          <h4>Hydrogen VS Electric Cars</h4>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+
+        <hr>
+
+        <div class="news2" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+          <h4>The Downsides of AI Artistry</h4>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+
+        <hr>
+      
+        <div class="news3" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+          <h4>Is VC Funding Drying Up?</h4>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
+
+   <div class="flex-container">
+      <div class="flex-item1">
+        <div>
+          <img src="./assets/images/image-retro-pcs.jpg" alt="retro pc">
+        </div>
+
+        <div class="flex-item-text">
+          <h3>01</h3>
+          <h5>Reviving Retro PCs</h5>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+    
+      <div class="flex-item2">
+        <div>
+          <img src="./assets/images/image-top-laptops.jpg" alt="top laptops">
+        </div>
+
+        <div class="flex-item-text">
+          <h3>02</h3>
+          <h5>Top 10 Laptops of 2022</h5>
+          <p>Our best picks for various needs and budgets </p>
+        </div>
+      </div>
+    
+      <div class="flex-item3">
+        <div>
+          <img src="./assets/images/image-gaming-growth.jpg
+          " alt="gaming growth">
+        </div>
+
+        <div class="flex-item-text">
+          <h3>03</h3>
+          <h5>The Growth of Gaming</h5>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+   </div>
+  </main>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <script>
+  AOS.init();
+ </script>
+
+ <script src="script.js"></script>
+  
+</body>
+
+</html>
+
+<!-- Home
+  New
+  Popular
+  Trending
+  Categories
+
+  The Bright Future of Web 3.0?
+
+  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?
+
+  Read more
+
+  New 
+
+  Hydrogen VS Electric Cars
+  Will hydrogen-fueled cars ever catch up to EVs?
+
+  The Downsides of AI Artistry
+  What are the possible adverse effects of on-demand AI image generation?
+
+  Is VC Funding Drying Up?
+  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+  01
+  Reviving Retro PCs
+  What happens when old PCs are given modern upgrades?
+
+  02
+  Top 10 Laptops of 2022
+  Our best picks for various needs and budgets.
+
+  03
+  The Growth of Gaming
+  How the pandemic has sparked fresh opportunities.
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
